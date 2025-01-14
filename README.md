@@ -60,7 +60,7 @@ Copiar código
 ---
 
 ## **Consideraciones Adicionales**
-- Si PowerShell bloquea la ejecución de scripts, ejecuta este comando en PowerShell como administrador: Set-ExecutionPolicy RemoteSigned
+- Si PowerShell bloquea la ejecución de scripts, ejecuta este comando en PowerShell como administrador: `Set-ExecutionPolicy RemoteSigned`
 
 - Si ya tienes PostgreSQL o Python instalados, el script detectará estas herramientas y no volverá a instalarlas.
 - Revisa que psql (PostgreSQL) esté agregado al PATH. Si no lo está, el script lo agregará automáticamente.
